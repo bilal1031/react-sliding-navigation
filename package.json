@@ -1,0 +1,32 @@
+{
+  "name": "react-sliding-navigation",
+  "version": "1.0.1",
+  "description": "A react module to create web application with sliding navgation",
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawblia/npm-test.git"
+  },
+  "author": "Muhammad Bilal",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
