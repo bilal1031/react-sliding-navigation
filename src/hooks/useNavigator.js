@@ -7,10 +7,10 @@ const useNavigator = () => {
   return { isActive, setIsActive };
 };
 
-function StateProvider({ activeState, children }) {
+const StateProvider = ({ activeState, children }) => {
   return (
     <Navigator.Provider value={activeState}>{children}</Navigator.Provider>
   );
-}
+};
 
 export { StateProvider, useNavigator };
