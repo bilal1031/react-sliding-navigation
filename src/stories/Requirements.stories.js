@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { storiesOf } from "@storybook/react";
-import { StateProvider, NavBar, NavNavigator } from "../lib";
+import { NavBar, NavNavigator } from "../lib";
+import { StateProvider } from "../hooks/useNavigator";
 
 const stories = storiesOf("App Test", module);
 
