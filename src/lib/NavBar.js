@@ -1,9 +1,9 @@
 import React, { useState, createRef } from "react";
 import { NavBrand, NavItem, NavDiv, Indicator } from "../Components";
 import { useNavigator } from "../hooks/useNavigator";
+import "./navbar.css";
 
 const NavBar = ({ navItems, navbarColor, indicatorColor, navBrand }) => {
-  require("./navbar.css");
   const home = createRef();
 
   const { setIsActive } = useNavigator();

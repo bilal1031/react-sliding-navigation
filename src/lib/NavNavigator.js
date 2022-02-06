@@ -1,7 +1,6 @@
 import React from "react";
-import { Wrapper } from "./Components";
-import { useNavigator } from "./hooks/useNavigator";
-
+import { Wrapper } from "../Components";
+import { useNavigator } from "../hooks/useNavigator";
 const NavNavigator = ({ pages }) => {
   const { isActive } = useNavigator();
 
@@ -20,5 +19,4 @@ const NavNavigator = ({ pages }) => {
     </>
   );
 };
-
 export default NavNavigator;
