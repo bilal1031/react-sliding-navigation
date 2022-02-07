@@ -1,6 +1,6 @@
 {
   "name": "react-sliding-navigation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react module to create web application with sliding navigation",
   "keywords": [
     "react",
@@ -41,6 +41,9 @@
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "styled-components": "^5.3.3"
+  },
+  "dependencies": {
     "styled-components": "^5.3.3"
   }
 }
